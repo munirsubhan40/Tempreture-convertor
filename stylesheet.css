@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+      width: 100vh;
+      height: 100vh;
+      display: flex;
+      margin-left:30%;
+      margin-top: 05%;
+      margin-bottom: 5%;
+      justify-content: center;
+      align-items: center;
+      background: lightblue;
+      font-size: 1rem;
+}
+.tempreture-converter{
+    background:#fff;
+    width: 100%;
+    min-width: 320px; 
+    padding: 20px 25px 45px;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    box-shadow: black;
+   
+}
+.mobile{
+    display: flex;
+    justify-content: space-between ;
+    font-size: 10px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.title{
+color: #233;
+font-size: 1.5rem;
+text-align: center;
+}
+
+input, select, button {   
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    font-style: italic;
+}
+#convert-btn{
+
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    padding: 6px 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: rgba(13, 7, 93, 0.762);
+    color: rgba(255, 0, 0, 0.689);
+    margin-top: 10px;
+    transition: all, 3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert-btn:hover{
+    background: linear-gradient(to buttom,#204033 ,#56549e);
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+}
